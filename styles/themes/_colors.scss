@@ -1,0 +1,55 @@
+$enamel-blue: (
+  "colors": (
+    /** Base */
+    "red": red,
+    "yellow": yellow,
+    "blue": blue,
+
+    "orange": orange,
+    "green": green,
+    "purple": purple,
+
+    "vermilion": #FC600A, //red-orange
+    "amber": #FC600A, // yellow-orange
+    "chartreuse": chartreuse, // yellow-green
+    "teal": teal, // blue-green
+    "violet": violet, // blue-purple
+    "magenta": magenta, // red-purple
+
+    /** Main */ 
+    "primary": #0081a8,
+    "secondary": #006676,
+    "tertiary": #a8006f,
+    "accent": #76004d,
+    "other": #a88b00,
+
+    /** Sentiment */ 
+    "neutral": #404040,
+    "positive": #002db3,
+    "negative": #b32400,
+
+    /** Emotion */ 
+    "joy": #edc500,
+    "trust": #7bbd0d,
+    "fear": #007b33,
+    "surprise": #3fa5c0,
+    "sadness": #1f6cad,
+    "anger": #e71e24,
+    "disgust": #7b4ea3,
+    "anticipation": #e87200,
+    
+    /** State */ 
+    "success": #60bc57,
+    "info": #18e197,
+    "warning": #e1ad18,
+    "danger": #e11818,
+    
+    /** neutral variant element color */
+    "light":      #f8f9fa,
+    "dark":       #212529,
+  ),
+  "mode": (
+    'light': ('black':#0c0d0e, 'white':#fff),
+    'dark': ('black':#fff, 'white':#1e1d2b)
+  )
+);

@@ -1,0 +1,21 @@
+@import './function/_colors.scss';
+
+@import './themes/index.scss';
+@import './library/bootstrap.scss';
+@import './_grid.scss';
+@import './_switch.scss';
+
+// reset
+body{
+  font-family: 'Roboto', sans-serif;
+  background: var(--white);
+  color: var(--black)
+}
+
+.text-small{
+  font-size: .75rem;
+}
+
+.text-muted{
+  opacity: .75;
+}

@@ -1,0 +1,23 @@
+.grid {
+  display: grid;
+
+  .col {
+    border: 1px solid var(--white);
+    font-size: .75rem;
+  }
+}
+
+.grid--fill {
+  grid-template-columns: repeat(auto-fill, minmax(3rem, 1fr));
+}
+
+.grid--fit {
+  grid-template-columns: repeat(auto-fit, minmax(3rem, 1fr));
+}
+
+.color-hue{
+  background-color: var(--black-300);
+  padding: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+}
