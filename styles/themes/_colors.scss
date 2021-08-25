@@ -158,57 +158,218 @@ $green-military: (
     ),
     'dark': (
       'black': #fff,
-      'white': #1e1d2b
+      'white': #1b1e27
     )
   )
 );
 
 $color-scheme1: (
   'colors': (
-    /** Base */ 'red': red,
-    'yellow': yellow,
-    'blue': blue,
-    'orange': orange,
-    'green': green,
-    'purple': purple,
-    'vermilion': #fc600a,
+    /** Base */ 'red': #ff2f3c,
+    'yellow': #ffc727,
+    'blue': #1362fd,
+    'orange': #f37916,
+    'green': #13c57c,
+    'purple': #7659ff,
+    'green-yellow': #d2e603,
+    'teal': #35b5ac,
     //red-orange
       'amber': #fc600a,
     // yellow-orange
       'chartreuse': chartreuse,
     // yellow-green
-      'teal': teal,
-    // blue-green
+      // blue-green
       'violet': violet,
     // blue-purple
       'magenta': magenta,
     // red-purple
       /** Main */ 'primary': #f37916,
-    'secondary': #006676,
-    'tertiary': #a8006f,
-    'accent': #76004d,
-    'other': #a88b00,
-    /** Sentiment */ 'neutral': #404040,
-    'positive': #002db3,
-    'negative': #b32400,
-    /** Emotion */ 'joy': #edc500,
-    'trust': #7bbd0d,
-    'fear': #007b33,
-    'surprise': #3fa5c0,
-    'sadness': #1f6cad,
-    'anger': #e71e24,
-    'disgust': #7b4ea3,
-    'anticipation': #e87200,
-    /** State */ 'success': #60bc57,
-    'info': #18e197,
-    'warning': #e1ad18,
-    'danger': #e11818,
+    'secondary': #f54748,
+    'tertiary': #343f56,
+    'accent': #f5e6ca,
+    /** Sentiment */ 'neutral': #787780,
+    'positive': #1554d3,
+    'negative': #d22b39,
+    /** Emotion */ 'joy': #ffd252,
+    'trust': #42d196,
+    'fear': #5dc4bd,
+    'surprise': #4281fd,
+    'sadness': #dbeb35,
+    'anger': #ff5963,
+    'disgust': #917aff,
+    'anticipation': #f59445,
+    /** State */ 'success': #13c57c,
+    'info': #13c57c,
+    'warning': #f37916,
+    'danger': #ff2f3c,
     /** neutral variant element color */ 'light': #f8f9fa,
     'dark': #212529
   ),
   'mode': (
     'light': (
-      'black': #0c0d0e,
+      'black': #2b2f3b,
+      'white': #fff
+    ),
+    'dark': (
+      'black': #fff,
+      'white': #1e1d2b
+    )
+  )
+);
+
+$color-scheme2: (
+  'colors': (
+    /** Base */ 'red': #e40017,
+    'yellow': #f9ff21,
+    'blue': #002bdc,
+    'orange': #ff5200,
+    'green': #00bd56,
+    'purple': #c400ff,
+    'green-yellow': #9db300,
+    'teal': #008891,
+    //red-orange
+      'amber': #fc600a,
+    // yellow-orange
+      'chartreuse': chartreuse,
+    // yellow-green
+      // blue-green
+      'violet': violet,
+    // blue-purple
+      'magenta': magenta,
+    // red-purple
+      /** Main */ 'primary': #50cb93,
+    'secondary': #01c5c4,
+    'tertiary': #fea82f,
+    'accent': #ff2442,
+    /** Sentiment */ 'neutral': #a5a5aa,
+    'positive': #6680ea,
+    'negative': #ef6674,
+    /** Emotion */ 'joy': #faff4d,
+    'trust': #42d196,
+    'fear': #33a0a7,
+    'surprise': #4281fd,
+    'sadness': #b1c233,
+    'anger': #e93345,
+    'disgust': #d033ff,
+    'anticipation': #ff7533,
+    /** State */ 'success': #00bd56,
+    'info': #00bd56,
+    'warning': #ff5200,
+    'danger': #e40017,
+    /** neutral variant element color */ 'light': #f8f9fa,
+    'dark': #212529
+  ),
+  'mode': (
+    'light': (
+      'black': #2b2f3b,
+      'white': #fff
+    ),
+    'dark': (
+      'black': #fff,
+      'white': #1e1d2b
+    )
+  )
+);
+
+$color-scheme3: (
+  'colors': (
+    /** Base */ 'red': #d21a28,
+    'yellow': #ffcc29,
+    'blue': #275d9c,
+    'orange': #f05a05,
+    'green': #128c3b,
+    'purple': #623fcf,
+    'green-yellow': #a79c0e,
+    'teal': #366363,
+    //red-orange
+      'amber': #fc600a,
+    // yellow-orange
+      'chartreuse': chartreuse,
+    // yellow-green
+      // blue-green
+      'violet': violet,
+    // blue-purple
+      'magenta': magenta,
+    // red-purple
+      /** Main */ 'primary': #9c8cfc,
+    'secondary': #57c7fc,
+    'tertiary': #ef4a7b,
+    'accent': #47e7c2,
+    /** Sentiment */ 'neutral': #787780,
+    'positive': #255085,
+    'negative': #d20717,
+    /** Emotion */ 'joy': #ffd654,
+    'trust': #41a362,
+    'fear': #5e8282,
+    'surprise': #527db0,
+    'sadness': #b9b03e,
+    'anger': #db4853,
+    'disgust': #8165d9,
+    'anticipation': #f37b37,
+    /** State */ 'success': #128c3b,
+    'info': #128c3b,
+    'warning': #f05a05,
+    'danger': #d21a28,
+    /** neutral variant element color */ 'light': #f8f9fa,
+    'dark': #212529
+  ),
+  'mode': (
+    'light': (
+      'black': #2b2f3b,
+      'white': #fff
+    ),
+    'dark': (
+      'black': #fff,
+      'white': #1e1d2b
+    )
+  )
+);
+
+$color-scheme4: (
+  'colors': (
+    /** Base */ 'red': #fa2632,
+    'yellow': #fed330,
+    'blue': #45aaf2,
+    'orange': #fa8231,
+    'green': #26de81,
+    'purple': #a65eea,
+    'green-yellow': #bac600,
+    'teal': #2bcbba,
+    //red-orange
+      'amber': #fc600a,
+    // yellow-orange
+      'chartreuse': chartreuse,
+    // yellow-green
+      // blue-green
+      'violet': violet,
+    // blue-purple
+      'magenta': magenta,
+    // red-purple
+      /** Main */ 'primary': #00f1e0,
+    'secondary': #0076fc,
+    'tertiary': #ff6a99,
+    'accent': #ffc625,
+    /** Sentiment */ 'neutral': #787780,
+    'positive': #3d8eca,
+    'negative': #ce2431,
+    /** Emotion */ 'joy': #fedc59,
+    'trust': #51e59a,
+    'fear': #55d5c8,
+    'surprise': #6abbf5,
+    'sadness': #c8d133,
+    'anger': #fb515b,
+    'disgust': #b87eee,
+    'anticipation': #fb9b5a,
+    /** State */ 'success': #26de81,
+    'info': #26de81,
+    'warning': #fa8231,
+    'danger': #fa2632,
+    /** neutral variant element color */ 'light': #f8f9fa,
+    'dark': #212529
+  ),
+  'mode': (
+    'light': (
+      'black': #2b2f3b,
       'white': #fff
     ),
     'dark': (
