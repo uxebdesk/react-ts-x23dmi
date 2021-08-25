@@ -4,8 +4,9 @@
  * THEME COLORS & MODE
  * ===================
  **/
-$eui-theme-colors: (
-  "enamel-blue": map-get($enamel-blue, "colors")
+ $eui-theme-colors: (
+  "enamel-blue": map-get($enamel-blue, "colors"),
+  "orange-fresh": map-get($enamel-blue, "colors"),
 ) !default;
 
 /** Dark Mode/Light color black and white
@@ -14,6 +15,7 @@ $eui-theme-colors: (
 */
 $eui-theme-colors-mode:(
   "enamel-blue": map-get($enamel-blue, "mode"),
+  "orange-fresh": map-get($enamel-blue, "mode"),
 ) !default;
 /** END THEME COLORS & MODE !! **/
 
