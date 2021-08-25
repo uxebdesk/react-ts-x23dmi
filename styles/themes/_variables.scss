@@ -7,7 +7,8 @@
 $eui-theme-colors: (
   'enamel-blue': map-get($enamel-blue, 'colors'),
   'orange-fresh': map-get($orange-fresh, 'colors'),
-  'green-military': map-get($green-military, 'colors')
+  'green-military': map-get($green-military, 'colors'),
+  'color-scheme1': map-get($color-scheme1, 'colors')
 ) !default;
 
 /** Dark Mode/Light color black and white
@@ -17,7 +18,8 @@ $eui-theme-colors: (
 $eui-theme-colors-mode: (
   'enamel-blue': map-get($enamel-blue, 'mode'),
   'orange-fresh': map-get($orange-fresh, 'mode'),
-  'green-military': map-get($green-military, 'mode')
+  'green-military': map-get($green-military, 'mode'),
+  'color-scheme1': map-get($color-scheme1, 'mode')
 ) !default;
 /** END THEME COLORS & MODE !! **/
 
